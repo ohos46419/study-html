@@ -1,0 +1,38 @@
+.thumbnail {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    width: 600px;
+}
+
+.profile {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.profile img {
+    max-width: 100%;
+    border-radius: 70%;
+    width: 70px;
+    height: 70px;
+}
+
+.text {
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.text1 {
+    flex: 9;
+}
+
+.text2 {
+    margin-left: 80px;
+    color: dimgrey;
+}
