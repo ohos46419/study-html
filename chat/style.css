@@ -2,3 +2,74 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background: rgba(135, 206, 250, 0.81);
+}
+
+.chat {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 16px;
+}
+
+.container {
+    position: relative;
+}
+
+.with-profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.my-container {
+    display: block;
+}
+
+.my-container .box {
+    flex-direction: row-reverse;
+}
+
+.my-container .name {
+    display: none;
+}
+
+.my-container .message {
+    background: #ffea00;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+.message {
+    background: white;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.time {
+    color: black;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.box {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.profile {
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    display: block;
+}
